@@ -13,7 +13,7 @@ faqs.forEach(faq=> {
 
         //change icon on each click
        const icon = faq.querySelector('.faq__icon i');
-        if (icon.classname === "bi bi-plus") {
+        if (icon.className === "bi bi-plus") {
             icon.className = "bi bi-dash-lg";
         } 
         else {
